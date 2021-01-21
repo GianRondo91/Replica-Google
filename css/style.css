@@ -1,3 +1,13 @@
+/*Borrar*/
+
+div,
+.search {
+    border: 0.1em solid black;
+}
+
+
+/*Afecta a todo*/
+
 * {
     padding: 0;
     border: 0;
@@ -9,11 +19,72 @@ a {
     color: black;
 }
 
-.usuario img {
-    width: 3.2em;
-    height: 3em;
+
+/**Contenido**/
+
+.contenido {
+    margin-top: 1em;
+    width: 42em;
 }
 
-.logo img {
+
+/*--HEAD--*/
+
+.menu-sup {
+    width: 42em;
+    height: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-sup-right {
+    display: flex;
+}
+
+
+/*user*/
+
+.usuario {
+    width: 3.4em;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-user {
+    width: 3.2em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+
+/*--SECTION--*/
+
+.cuerpo {
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.centro {
+    width: 40em;
+    text-align: center;
+}
+
+.buscador,
+.botones,
+.lenguajes {
+    display: flex;
+}
+
+.img-logo {
     width: 15em;
+}
+
+
+/*--FOOTER--*/
+
+.footer {
+    height: 8.5em;
 }
