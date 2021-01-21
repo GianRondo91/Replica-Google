@@ -1,17 +1,10 @@
-/*Borrar*/
-
-div,
-.search {
-    border: 0.1em solid black;
-}
-
-
 /*Afecta a todo*/
 
 * {
     padding: 0;
     border: 0;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -20,56 +13,74 @@ a {
 }
 
 
-/**Contenido**/
-
-.contenido {
-    margin-top: 1em;
-    width: 42em;
-}
-
-
 /*--HEAD--*/
 
 .menu-sup {
-    width: 42em;
     height: 3em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
 }
 
 .menu-sup-right {
     display: flex;
+    margin-right: 2em;
+}
+
+.menu-sup-lef {
+    margin-left: 2em;
 }
 
 
 /*user*/
 
 .usuario {
-    width: 3.4em;
+    width: 3.2em;
+    height: 3.2em;
     border-radius: 50%;
+    display: flex;
     justify-content: center;
     align-content: center;
+    /*colores, circulo usuario*/
+    border-right: 0.2em solid #428bca;
+    border-top: 0.2em solid #d9534f;
+    border-left: 0.2em solid #f0ad4e;
+    border-bottom: 0.2em solid #5cb85c;
 }
 
 .img-user {
-    width: 3.2em;
+    width: 3em;
     height: 3em;
     border-radius: 50%;
+}
+
+.space {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 0.9em;
+}
+
+.boton-menu {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.3em;
+    color: darkgray;
 }
 
 
 /*--SECTION--*/
 
 .cuerpo {
-    height: 30em;
+    height: 77em;
     display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .centro {
     width: 40em;
     text-align: center;
+    position: relative;
+    margin-top: 0;
+    top: 8em;
 }
 
 .buscador,
@@ -79,12 +90,96 @@ a {
 }
 
 .img-logo {
-    width: 15em;
+    width: 18em;
+    padding-bottom: 1.5em;
+}
+
+.buscador {
+    height: 2.4em;
+    border-radius: 1em;
+    border: 0.1em solid #D4D4D4;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #E5E5E5;
+}
+
+.search {
+    width: 43em;
+    height: 2.5em;
+}
+
+.buscar,
+.micro {
+    height: 1em;
+    width: 1em;
+    font-size: 1.2em;
+}
+
+.micro {
+    margin-right: 0.5em;
+    color: rgb(66, 133, 244);
+}
+
+.buscar {
+    margin-left: 0.5em;
+    color: darkgray;
+}
+
+.botones {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.buscar-google {
+    margin-right: 1em;
+}
+
+.buscar-suerte {
+    margin-left: 1em;
+}
+
+.buscar-google,
+.buscar-suerte {
+    height: 1em;
+    text-align: center;
+    padding: 0.8em;
+    background-color: #f2f2f2;
+    border-radius: 0.2em;
 }
 
 
 /*--FOOTER--*/
 
 .footer {
-    height: 8.5em;
+    height: 9.5em;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+.submenu {
+    height: 6em;
+    display: grid;
+    border-top: 0.1em solid darkgray;
+}
+
+.lenguaje-actual {
+    padding: 1em 0em 1em 2em;
+}
+
+.lenguajes {
+    justify-content: center;
+}
+
+.leng {
+    margin: 0.2em;
+}
+
+.lenguajes>a {
+    color: #1a0dab;
+}
+
+.esp {
+    font-size: 00.9em;
+}
+
+.option {
+    padding: 1em;
 }
