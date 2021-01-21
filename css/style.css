@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.usuario img {
+    width: 3.2em;
+    height: 3em;
+}
+
+.logo img {
+    width: 15em;
+}
